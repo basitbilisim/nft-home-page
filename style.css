@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800&family=Poppins:wght@200;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: #0a1821;
+    font-family:Cairo;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box-1 {
+    background-color: #0a1724;  
+    width: 100%;
+}
+
+nav {
+    background-color: #0a1724;
+    height: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.logo {
+    color: white;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: 800;
+}
+
+nav ul {
+    float: right;
+    margin-right: 70px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    font-size: 17px;
+    font-weight:700 ;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+
+
+
+i{
+    color: #fff;
+    font-size: 20px;
+}
+button {
+    border: none;
+}
+.social-button {
+    padding-left: 40px;
+    margin-top: 40px;    
+}
+.discord-button {
+    width: 180px;
+    background-color: #5865F2;
+    height: 60px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.twitter-button,.instagram-button {
+    background-color: #0a1821;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 7px;
+}
+.box-2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.box-2-div{
+    width: 50%;
+    line-height: -100px;
+    margin-top: 150px;  
+
+}
+.mar-top{
+    margin-top: 40px;
+}
+.box-2-div h1{
+    height: 75px;
+    font-weight: 800;
+    font-size: 60px;
+    padding-left: 40px;
+}
+.box-2-div p{
+    font-size: 23px;
+    font-weight:bold;
+    padding-left: 40px;
+    height: 30px;
+}
+.box-2-nft {
+    display: flex;
+    position: relative;
+    margin-top: 150px; 
+    padding-left: 100px;
+}
+.img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-2-nft img {
+    width: 250px;
+    margin-top: 15px;
+    border-radius:10px ;
+}
+.nft-box-1 {
+    position: absolute;
+    width: 280px;
+    border-radius: 10px;
+    height: 360px;
+    background-color: #2F3D42;
+    backdrop-filter: blur(20px);
+    
+    transform: rotate(-15deg);
+
+}
+.nft-box-2 {
+    width: 280px;
+    border-radius: 10px;
+    height: 360px;
+    margin-top: 40px;
+    margin-left: 80px;
+    background-color: #2F3D42;
+    backdrop-filter: blur(20px);
+    
+}
+
+.nft-span {
+    display: block;
+    margin-top: 10px;
+    width: 150px;
+    height: 22px;
+    margin-left: 15px; 
+    background-color: #4C4C55;
+}
+.nft-span-small {
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    height: 17px;
+    margin-left: 15px; 
+    background-color: #4C4C55;
+}
